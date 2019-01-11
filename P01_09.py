@@ -20,7 +20,7 @@ def somePrime(numbers):
 def allPrime(numbers):
     # ADD ADDITIONAL CODE HERE!
     for i in range(len(numbers)):
-        if not isPrime(i):
+        if not isPrime(numbers[i]):
             return False
     return True
 
